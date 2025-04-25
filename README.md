@@ -33,7 +33,7 @@ $ pip3 install -e .
 
 ## Examples
 
-### Gitee
+### Gitlink
 
 ```
 $ perceval gitlink xuos xiuos 
