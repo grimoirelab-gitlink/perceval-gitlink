@@ -1,0 +1,135 @@
+{
+    "total_count": 2,
+    "journals": [
+        {
+            "id": 201,
+            "note": "这是一个新的测试评论",
+            "commit_id": null,
+            "line_code": "70eede447ccc01c1902260fd377af5d90be28e0d_0_30",
+            "path": "README.md",
+            "diff": {},
+            "need_respond": true,
+            "state": "resolved",
+            "parent_id": null,
+            "user": {
+                "id": 3,
+                "type": "User",
+                "name": "testuser",
+                "login": "testuser123",
+                "image_url": "system/lets/letter_avatars/3/T/188_239_142/120.png"
+            },
+            "review": {
+                "reviewer": {
+                    "id": 3,
+                    "type": "User",
+                    "name": "testuser",
+                    "login": "testuser123",
+                    "image_url": "system/lets/letter_avatars/3/T/188_239_142/120.png"
+                },
+                "pull_request": {
+                    "id": 164,
+                    "title": "测试合并请求2",
+                    "body": null,
+                    "head": "feature_branch",
+                    "base": "main",
+                    "is_original": false,
+                    "index": 2,
+                    "status": "open",
+                    "issue": {
+                        "id": 261,
+                        "author": {
+                            "id": 3,
+                            "type": "User",
+                            "name": "testuser",
+                            "login": "testuser123",
+                            "image_url": "system/lets/letter_avatars/3/T/188_239_142/120.png"
+                        },
+                        "priority": null,
+                        "version": null,
+                        "journals_count": 0,
+                        "issue_tags": null
+                    },
+                    "reviewers": [],
+                    "journals_count": 5
+                },
+                "id": 11,
+                "commit_id": "2",
+                "content": "创建一个新的审查",
+                "status": "common",
+                "created_at": "2022-07-27 10:00"
+            },
+            "resolveer": {
+                "id": 3,
+                "type": "User",
+                "name": "testuser",
+                "login": "testuser123",
+                "image_url": "system/lets/letter_avatars/3/T/188_239_142/120.png"
+            },
+            "resolve_at": "2022-07-28 15:00",
+            "created_at": "2022-07-28 14:30",
+            "updated_at": "2022-07-28 15:00"
+        },
+        {
+            "id": 202,
+            "note": "这是另一个测试评论",
+            "commit_id": null,
+            "line_code": "70eede447ccc01c1902260fd377af5d90be28e0d_0_31",
+            "path": "config/routes.rb",
+            "diff": {},
+            "need_respond": false,
+            "state": "unresolved",
+            "parent_id": null,
+            "user": {
+                "id": 4,
+                "type": "User",
+                "name": "anotheruser",
+                "login": "anotheruser456",
+                "image_url": "system/lets/letter_avatars/4/A/188_239_142/120.png"
+            },
+            "review": {
+                "reviewer": {
+                    "id": 4,
+                    "type": "User",
+                    "name": "anotheruser",
+                    "login": "anotheruser456",
+                    "image_url": "system/lets/letter_avatars/4/A/188_239_142/120.png"
+                },
+                "pull_request": {
+                    "id": 165,
+                    "title": "测试合并请求3",
+                    "body": null,
+                    "head": "dev_branch",
+                    "base": "main",
+                    "is_original": false,
+                    "index": 3,
+                    "status": "open",
+                    "issue": {
+                        "id": 262,
+                        "author": {
+                            "id": 4,
+                            "type": "User",
+                            "name": "anotheruser",
+                            "login": "anotheruser456",
+                            "image_url": "system/lets/letter_avatars/4/A/188_239_142/120.png"
+                        },
+                        "priority": null,
+                        "version": null,
+                        "journals_count": 0,
+                        "issue_tags": null
+                    },
+                    "reviewers": [],
+                    "journals_count": 7
+                },
+                "id": 12,
+                "commit_id": "3",
+                "content": "创建另一个审查",
+                "status": "common",
+                "created_at": "2022-07-28 11:00"
+            },
+            "resolveer": null,
+            "resolve_at": null,
+            "created_at": "2022-07-28 14:45",
+            "updated_at": "2022-07-28 14:45"
+        }
+    ]
+}

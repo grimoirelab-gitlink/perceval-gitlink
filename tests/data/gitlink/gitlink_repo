@@ -1,0 +1,63 @@
+{
+    "content": "TIPs: XiUOS开发分支为prepare_for_master，社区开发者所有操作均在该分支上进行，原则上主分支master不接受合并请求。\n</br>\n**2023开源大赛**</br>\n2023开源大赛题目入口：https://www.gitlink.org.cn/competitions/index/track1_2023_xiuos\n2023开源大赛参赛分支为2023_open_source_contest，参赛同学所有操作均基于该分支进行，fork至个人仓库，完成赛题issue后，通过合并请求提交至2023_open_source_contest分支。\n</br>\n\nXiUOS开源大赛的技术支持和交流微信群：Wien_b\n![](/api/attachments/418671)\n\n</br>\n\n****XiUOS矽璓工业物联操作系统****<br/>\n\t   由北京大学信息技术高等研究院泛在操作系统实验室研发的XiUOS矽璓工业物联操作系统于2021年5月4日正式在确实Trustie和木兰开源社区发布v1.0版。XiUOS (X Industry Ubiquitous Operating System) 矽璓工业物联操作系统是一款面向工业物联场景的泛在操作系统，源自人机物融合计算和第四次工业革命产业需求的碰撞。<br/>\n\t![p1](/api/attachments/358249)<br/>\n\t   人机物融合计算是继主机计算、个人计算、移动计算之后出现的新型计算模式，其万物数字化、交互网络化、系统智能化、计算泛在化等新特性要求新型操作系统的支撑，为此北京大学梅宏院士团队联合国内多所高等院校、科研机构倡议发起泛在操作系统（UOS: Ubiquitous Operating Systems）研究计划，致力于研发支持互联网时代人机物融合计算模式的新型操作系统—泛在操作系统。在泛在操作系统技术体系中，会面向不同的应用场景构建不同的UOS实例。矽璓XiUOS即是面向工业物联应用场景的一种UOS，支持工业物联网(IIoT: Industrial Internet of Things)应用，帮助解决在车间内实施智能化生产面临的“全面感知、泛在互联、智能分析、精准调控”等问题，促进工业领域人机物的深度互联和融合计算，使能智能制造。<br/>\n\t![p2](/api/attachments/358250)<br/>\n\t   矽璓XiUOS的前期基础主要来自北京大学在网构操作系统以及上海交通大学在软件定义内存计算系统等方面的长期技术积累。2018年1月，梅宏院士在[《泛在操作系统：软件定义的视角》](https://www.computer.org/csdl/magazine/co/2018/01/mco2018010050/13rRUzpQPGW \"《泛在操作系统：软件定义的视角》\")文章中提出泛在操作系统UOS概念，视为人机物融合泛在计算时代操作系统发展的重要方向和形态。随后开启泛在操作系统研究在工业领域的落地，以北京大学和上海交通大学的研究人员为骨干组建工业物联网操作系统研发团队，针对工业领域智能制造对人机物全面连接的需求与挑战，开展工业物联网操作系统需求凝练、架构设计和原型研发工作。2019年11月，在杭州市萧山区委区政府的大力支持下，XiUOS研制工作正式转入位于萧山的北京大学信息技术高等研究院，结合萧山本地工业企业的实际应用需求，开始集中攻关。2021年5月4日，开源发布XiUOS矽璓工业物联操作系统1.0版本。<br/>\n\t   萧山是浙江乃至中国的制造业重镇，工业基础雄厚，正在谋求传统制造业数字化转型升级、实现新旧动能转换，对工业物联网等新一代信息技术有迫切需求。XiUOS矽璓工业物联操作系统的应运而生，将促进先进计算技术和工业制造的深度融合，服务萧山本地乃至国内外众多迈向智能制造的工业企业，助推其数字化转型和智能化升级。<br/>\n\t   在XiUOS软件定义技术体系中，主要内容是一个微型实时操作系统内核和其上的“感联知控”工业物联应用框架，针对工业环境智能化生产特点和需求做了针对性设计和优化，以简化工业物联应用的开发、部署、管理和运维。<br/>\n\t![p3](/api/attachments/358251)<br/>\n\t   XiUOS实现了一个可扩展的高效率微型内核，其设计汲取了现有优秀操作系统在抽象性、实时性与高效率等方面的优点，具有实时任务调度与中断响应、内核任务与用户任务的隔离机制、动静态结合的内存管理等特点。<br/>\n\t   “感联知控”工业物联应用框架是XiUOS的重点。目前XiUOS的1.0版本实现了基本的传感和互联框架，具有初步的智能分析和告警控制能力，计划于2021年12月份发布的XiUOS 2.0版本将具有较为完善的感联知控能力，部分技术特征包括：<br/>\n\t•\t全面感知：支持工业领域的各种环境感知传感器，如温度、湿度、烟雾、气味、噪声、电流电压等，以及对声音和物体进行感知识别的摄像头等音视频采集设备，提供方便的IIC、UART 等接口驱动，方便接入新传感器；提供统一的面向物理量的编程抽象，简化传感数据的采集、解析和管理。<br/>\n\t•\t泛在互联：目前支持4G/WIFI/NBIoT/LoRa/Ethernet/ZigBee，2.0版将支持5G和及各种工业环境网络通信方式，并提供各种网络协议栈和消息通信库如MQTT等，支持节点自组织网络，简化复杂工业环境下的网络部署和管理，为工厂环境的人机物泛在联通提供支持。<br/>\n\t•\t智能分析：工业物联场景常常需要实时对数据进行分析，快速做出响应。XiUOS提供微型AI引擎和AI算法加速库，支持将智能识别和分析能力前移到物联网节点设备上，目前已具备对仪表盘的读取识别能力。2.0版将可在节点端对声音、物体、人体、缺陷模式等进行实时识别和计算，提供轻量化、易部署的工业智能方案。<br/>\n\t•\t精准控制：智能化生产要求将各型生产设备、工业控制系统（如PLC）等互联以实施精准控制。XiUOS将提供对 PLC 的数据采集库，支持对西门子、欧姆龙、贝加莱等PLC系统采集工业设备运转数据，可远程对设备进行实时监控和精准控制。<br/>\n\t   在硬件平台支持方面，XiUOS目前支持ARM和RISC-V两种架构的处理器，可运行在11种开发板，以及QEMU模拟器上。XiUOS团队自研了工业物联网感知终端，具有SPI、IIC、UART、CAN、RS485、RS232、USB、SDIO等各型总线接口，既可以作为XiUOS的开发板，也可以作为产品进行实际部署。<br/>\n\t![p4](/api/attachments/358252)<br/>\n\t   XiUOS矽璓工业物联操作系统遵循木兰开源协议，系统API兼容POSIX规范，对开发者非常友好。在定位方面，面向工业物联网这一极其庞大并蓬勃发展的物联网细分市场，生态体系开放，期望和学术界和产业界共建生态，优势互补，互相协作，携手共赢。<br/>\n\t   XiUOS技术博客的链接：https://blog.csdn.net/AIIT_Ubiquitous\n\n",
+    "website": null,
+    "lesson_url": null,
+    "identifier": "xiuos",
+    "invite_code": "4bPMOc",
+    "name": "矽璓工业物联操作系统XiUOS",
+    "description": "面向智慧车间的工业物联网操作系统",
+    "project_id": 1400977,
+    "repo_id": 1402604,
+    "issues_count": 58,
+    "pull_requests_count": 3,
+    "project_identifier": "xiuos",
+    "praises_count": 41,
+    "forked_count": 236,
+    "watchers_count": 58,
+    "versions_count": 4,
+    "version_releases_count": 1,
+    "version_releasesed_count": 1,
+    "permission": "",
+    "mirror_url": null,
+    "mirror": false,
+    "has_actions": false,
+    "web_site": null,
+    "type": 0,
+    "open_devops": false,
+    "topics": [
+        {
+            "id": 18,
+            "name": "c"
+        },
+        {
+            "id": 15,
+            "name": "c++"
+        },
+        {
+            "id": 79,
+            "name": "vhdl"
+        }
+    ],
+    "watched": false,
+    "praised": false,
+    "status": 1,
+    "forked_from_project_id": null,
+    "empty": false,
+    "size": "318.6 MB",
+    "ssh_url": "git@code.gitlink.org.cn:xuos/xiuos.git",
+    "clone_url": "https://gitlink.org.cn/xuos/xiuos.git",
+    "default_branch": "master",
+    "full_name": "xuos/xiuos",
+    "private": false,
+    "license_name": "MulanPSL-2.0",
+    "license_id": 359,
+    "branches_count": 6,
+    "tags_count": 2,
+    "author": {
+        "id": 87373,
+        "login": "xuos",
+        "type": "Organization",
+        "name": "泛在操作系统实验室",
+        "image_url": "images/avatars/Organization/87373?t=1619528978"
+    }
+}

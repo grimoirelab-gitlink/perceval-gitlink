@@ -1,0 +1,80 @@
+# Releases
+
+  ## grimoirelab-toolkit 0.4.5 - (2024-03-27)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.4.4 - (2024-03-12)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.4.3 - (2024-03-01)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.4.2 - (2024-01-30)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.4.1 - (2023-12-19)
+  
+  * Update Poetry's package dependencies
+
+## grimoirelab-toolkit 0.4.0 - (2023-10-20)
+
+**Feature removals:**
+
+ * Drop Python 3.7 support\
+   Python 3.7 reaches the end of life in June 2023. This means it won't
+   receive new updates or patches to fix security issues. Therefore, this
+   package only works with Python >= 3.8 from now on.
+
+
+  ## grimoirelab-toolkit 0.3.6 - (2023-07-11)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.3.5 - (2023-06-28)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.3.4 - (2023-04-21)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.3.3 - (2023-02-01)
+  
+  * Update Poetry's package dependencies
+
+  ## grimoirelab-toolkit 0.3.2 - (2022-10-31)
+  
+  * Update Poetry's package dependencies
+
+## grimoirelab-toolkit 0.3.0 - (2022-05-31)
+
+**Feature removals:**
+
+ * Drop Python 3.6 support\
+   Python 3.6 has reached the end of life in Dec 2021. This means it
+   won't receive any further patches to fix the secutiry issues. So,
+   dropping the support of 3.6 and it now supports Python>=3.7 version
+   only.
+
+
+## grimoirelab-toolkit 0.2.0 - (2021-04-20)
+
+**Security fixes:**
+
+ * Drop Python < 3.6 support \
+   Python versions previous to 3.6 ended their security support life in
+   September 2020. This new release drops its support too.
+
+
+## grimoirelab-toolkit 0.1.0 - (2017-05-15)
+
+** New features and improvements: **
+
+* This first release contains common functions used across other
+  GrimoireLab projects. These functions handle datetime objects,
+  URIs/URLs and high-level introspection tools.
+

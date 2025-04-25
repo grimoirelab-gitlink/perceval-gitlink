@@ -1,0 +1,57 @@
+{
+  "total_count": 2,
+  "pulls": [
+    {
+      "id": 12,
+      "title": "测试合并请求1",
+      "body": null,
+      "head": "feature_branch",
+      "base": "main",
+      "is_original": false,
+      "index": 2,
+      "status": "open",
+      "issue": {
+        "id": 106,
+        "author": {
+          "id": 111,
+          "type": "User",
+          "name": "测试用户1",
+          "login": "testuser1",
+          "image_url": "system/lets/letter_avatars/3/T/230_139_26/120.png"
+        },
+        "priority": null,
+        "version": null,
+        "journals_count": 0,
+        "issue_tags": null
+      },
+      "reviewers": [],
+      "journals_count": 0
+    },
+    {
+      "id": 13,
+      "title": "测试合并请求2",
+      "body": null,
+      "head": "dev_branch",
+      "base": "main",
+      "is_original": false,
+      "index": 3,
+      "status": "open",
+      "issue": {
+        "id": 107,
+        "author": {
+          "id": 112,
+          "type": "User",
+          "name": "测试用户2",
+          "login": "testuser2",
+          "image_url": "system/lets/letter_avatars/4/D/230_139_26/120.png"
+        },
+        "priority": null,
+        "version": null,
+        "journals_count": 0,
+        "issue_tags": null
+      },
+      "reviewers": [],
+      "journals_count": 0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "total_count": 1,
+  "journals": [
+      {
+          "id": 200,
+          "note": "测试评论修改",
+          "commit_id": null,
+          "line_code": "70eede447ccc01c1902260fd377af5d90be28e0d_0_29",
+          "path": "Gemfile.lock",
+          "diff": {},
+          "need_respond": true,
+          "state": "resolved",
+          "parent_id": nil,
+          "user": {
+              "id": 2,
+              "type": "User",
+              "name": "heh",
+              "login": "yystopf",
+              "image_url": "system/lets/letter_avatars/2/H/188_239_142/120.png"
+          },
+          "review": {
+              "reviewer": {
+                  "id": 2,
+                  "type": "User",
+                  "name": "heh",
+                  "login": "yystopf",
+                  "image_url": "system/lets/letter_avatars/2/H/188_239_142/120.png"
+              },
+              "pull_request": {
+                  "id": 163,
+                  "title": "新合并请求1",
+                  "body": null,
+                  "head": "master_1",
+                  "base": "master",
+                  "is_original": false,
+                  "index": 1,
+                  "status": "closed",
+                  "issue": {
+                      "id": 260,
+                      "author": {
+                          "id": 2,
+                          "type": "User",
+                          "name": "heh",
+                          "login": "yystopf",
+                          "image_url": "system/lets/letter_avatars/2/H/188_239_142/120.png"
+                      },
+                      "priority": null,
+                      "version": null,
+                      "journals_count": 0,
+                      "issue_tags": null
+                  },
+                  "reviewers": [],
+                  "journals_count": 9
+              },
+              "id": 10,
+              "commit_id": "1",
+              "content": "新建一个审查",
+              "status": "common",
+              "created_at": "2022-07-26 11:45"
+          },
+          "resolveer": {
+              "id": 2,
+              "type": "User",
+              "name": "heh",
+              "login": "yystopf",
+              "image_url": "system/lets/letter_avatars/2/H/188_239_142/120.png"
+          },
+          "resolve_at": "2022-07-27 14:50",
+          "created_at": "2022-07-27 14:31",
+          "updated_at": "2022-07-27 14:50"
+      }
+  ]
+}
